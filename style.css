@@ -1,0 +1,43 @@
+html {
+    font-size: 22px;
+}
+
+body {
+    min-height: 100vh;
+    max-width: 1600px;
+    margin: 0 auto;
+    padding: 1rem;
+    border-left: 12px solid rgb(175, 4, 27);
+    border-right: 12px solid rgb(175, 4, 27);
+}
+
+th, td, caption {
+    border: 1px solid #333;
+    border-collapse: separate;
+    padding: 0.5rem;
+}
+
+body{
+    background-color: rgb(17, 17, 94);
+    /*background-color: rgb(175, 4, 27);*/
+    color: rgb(236, 236, 236);
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+    /* color: rgb(19, 10, 102); */
+}
+
+table, tr, th, td, caption{
+    border: 3px solid rgb(119, 2, 18);
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    border-collapse: collapse;
+    padding: 0.5rem;
+}
+
+h1,h2,p,td{
+    text-align: center;
+}
+
+.center {
+    white-space: nowrap;
+    margin-left: auto;
+    margin-right: auto;
+  }
